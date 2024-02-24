@@ -1,0 +1,93 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+  background-image: url("images/Rectangle 1.png");
+  max-width: 1920px;
+  max-height: 1080px;
+  width: 100%;
+  height: 100%;
+}
+#h-wrapper-1{
+  font-size: 35px;
+  font-family: "Istok Web";
+  color: #FFDFBA;
+  font-weight: bold;
+}
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+h1{
+  font-family: "Istok Web";
+  color: #A87F4F;
+  font-size: 55px;
+  font-weight: bold;
+}
+#h1-desc{
+  font-family: "Istok Web";
+  font-size: 35px;
+  font-weight: normal;
+  color: #FFDFBA;
+}
+#h-wrapper-3{
+  color: #FFDFBA;
+  background-color: #A87F4F;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 30px;
+}
+#icon{
+  background-color: #A87F4F;
+  padding: 5px;
+  margin-left: 10px;
+  float: left;
+}
+#h-wrapper-1 h2{
+  margin-left: 12px;
+  display: inline;
+}
+#h-wrapper-2{
+  margin-top: 100px;
+  margin-left: 50px;
+}
